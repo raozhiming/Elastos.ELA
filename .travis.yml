@@ -16,8 +16,8 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
-branches:
-  only:
-  - master
-  - dev
-  - /(release).{7}/
+    branches:
+      only:
+        - master
+        - dev
+        - /(release).{7}/
