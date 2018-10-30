@@ -10,7 +10,6 @@ install:
   - glide install
   - pwd && ls -l
 deploy:
-  - pwd && ls -l
   provider: releases
   api_key: $GIT_TOKEN
   file: ela
